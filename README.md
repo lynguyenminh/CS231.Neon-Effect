@@ -14,7 +14,7 @@ Python: python3.8
 
 Open terminal and run this script: 
 ```
-git clone https://github.com/lynguyenminh/cs231-code.git && cd cs231-code
+git clone https://github.com/lynguyenminh/CS231.Neon-Effect.git && cd CS231.Neon-Effect
 pip install -r requirements.txt
 ```
 
