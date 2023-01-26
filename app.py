@@ -127,10 +127,12 @@ with mp_pose.Pose(min_detection_confidence=0.5,min_tracking_confidence=0.5) as p
 
                     result = cv2.addWeighted(image, 0.3, background, 0.7, 0)
             else: 
-                effect_name='ball_energy'
+                effect_name='none'
                 result = image
         else: 
             result = image
+            st.write('End code')
+            break
         
         result = cv2.cvtColor(result, cv2.COLOR_BGR2RGB)
         FRAME_WINDOW.image(result)
