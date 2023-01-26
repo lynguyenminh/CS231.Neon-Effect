@@ -2,6 +2,8 @@
 
 ## Neon effect with Computer Vision
 Using Alpha plending to create neon effect.
+  
+**Video demo:** [https://www.youtube.com/watch?v=kS-PNAT-Cp4&t](https://www.youtube.com/watch?v=kS-PNAT-Cp4&t)
 
 ## 0. My environment
 ```
