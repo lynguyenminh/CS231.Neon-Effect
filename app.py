@@ -20,11 +20,11 @@ with st.spinner("Loading Model...."):
 FRAME_WINDOW = st.image([])
 
 # read effect 1 video
-effect_frame = cv2.VideoCapture('ball_energy.mp4')
+effect_frame = cv2.VideoCapture('effect-video/ball_energy.mp4')
 
 # read effect 2 video
-effect_frame_plasma_ball = cv2.VideoCapture('Plasma-Ball.mp4')
-effect_frame_punch = cv2.VideoCapture('punch.mp4')
+effect_frame_plasma_ball = cv2.VideoCapture('effect-video/Plasma-Ball.mp4')
+effect_frame_punch = cv2.VideoCapture('effect-video/punch.mp4')
 
 # read webcam
 cap = cv2.VideoCapture(0)
